@@ -1,0 +1,188 @@
+/* Add some basic styling to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  /* Customize the navbar */
+  .navbar {
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Add some spacing between sections */
+  section {
+    margin-bottom: 3rem;
+  }
+  
+  /* Customize the product carousel */
+  #productCarousel {
+    margin-bottom: 2rem;
+  }
+  
+  .carousel-inner {
+    height: 400px;
+  }
+  
+  .carousel-item img {
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .carousel-control-prev, .carousel-control-next {
+    width: 40px;
+    height: 40px;
+    background-color: #337ab7;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .carousel-control-prev:hover, .carousel-control-next:hover {
+    background-color: #23527c;
+  }
+  
+  /* Customize the product information */
+  .product-info {
+    padding: 2rem;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-name {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .product-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #337ab7;
+  }
+  
+  .product-description {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Customize the reviews section */
+  #reviews {
+    padding: 2rem;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .review {
+    margin-bottom: 2rem;
+  }
+  
+  .review-author {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .review-rating {
+    font-size: 1.2rem;
+    color: #337ab7;
+  }
+  
+  .review-text {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Customize the related products section */
+  #related-products {
+    padding: 2rem;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .related-product {
+    margin-bottom: 2rem;
+  }
+  
+  .related-product img {
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .related-product-info {
+    padding: 1rem;
+  }
+  
+  .related-product-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .related-product-price {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #337ab7;
+  }
+  
+  /* Customize the footer */
+  footer {
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+  }
+
+  /* Add some basic styling to the contact page */
+
+.contact-form {
+    padding: 2rem;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+    font-weight: bold;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+}
+
+.contact-form button[type="submit"] {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.social-link {
+    font-size: 2rem;
+    margin-right: 1rem;
+    color: #337ab7;
+}
+
+.social-link:hover {
+    color: #23527c;
+}
+/* Font Awesome Icon Style */
+.fab {
+    font-size: 24px; /* Adjust size as needed */
+    color: #66d9ef; /* Default color for icons */
+}
+
+.fab:hover {
+    color: #000; /* Change color on hover */
+}
